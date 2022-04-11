@@ -17,7 +17,15 @@ a{
     text-decoration: none;
 }
 
-
+html::-webkit-scrollbar{
+    width: 10px;
+    background-color: none;
+}
+html::-webkit-scrollbar-thumb{
+    background: rgb(202, 201, 201);
+    border-radius: 10px;
+          
+}
 
 
 body{
@@ -147,11 +155,11 @@ body{
 
 .popular__card{
     margin-left: 20px;
-    cursor: pointer;
+    
 }
 
 .movie__img{
-    
+    cursor: pointer;
     border-radius: 10px;
     height: 225px;
     width: 150px;
@@ -177,4 +185,14 @@ body{
     color: #fff;
     border-radius: 50%;
     position: relative;
+}
+
+.popular__movies::-webkit-scrollbar{
+    height: 8px;
+    background-color: none;
+}
+.popular__movies::-webkit-scrollbar-thumb{
+    background: rgb(197, 195, 195);
+    border-radius: 10px;
+          
 }

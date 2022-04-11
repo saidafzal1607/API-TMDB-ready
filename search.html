@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./css/search.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="header__nav nav d-flex">
+            <ul class="nav__list menu d-flex">
+                <li class="nav__item">
+                    <a class="nav__link" href="#" >
+                        <img class="nav__logo" src="./images/logos/logo_1.svg" alt="logo" >
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="#" >
+                        Movies
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="#" >
+                        TVShows
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="#" >
+                        People
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="#" >
+                        More
+                    </a>
+                </li>
+            </ul>
+            <ul class="nav__list menu-tools d-flex">
+                <li class="nav__item">
+                    <a class="nav__link" href="#" >
+                        <img class="nav__tool-img" src="./images/icons/plus.svg" alt="plus" >
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="#" >
+                        <button class="nav__btn btn-lang">RU</button>
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="#" >
+                        <i class="fa-solid fa-bell"></i>
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="#" >
+                        <div class="nav__avatar">
+                            @
+                        </div>
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="#" >
+                        <img class="nav__tool-img search" src="./images/icons/search.svg" alt="search" >
+                    </a>
+                </li>
+            </ul>
+            
+        </nav>
+    </header>
+    <form  class="search__form">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" class="search__input">
+        <i class="fa-solid fa-xmark"></i>
+    </form>
+    <div class="wrapper">
+        <aside class="aside">
+            <div class="aside__head">
+                <h3 class="aside__title">
+                    Search Results
+                </h3>
+                <ul class="aside__list">
+                    <li class="aside_item">
+                        <h4 class="item__name">
+                            TV Shows
+                        </h4>
+                        <span>
+                            2,335
+                        </span>
+                    </li>
+                    <li class="aside_item">
+                        <h4 class="item__name">
+                            People
+                        </h4>
+                        <span>
+                            1,603
+                        </span>
+                    </li>
+                    <li class="aside_item">
+                        <h4 class="item__name">
+                            Movies
+                        </h4>
+                        <span>
+                            10,000
+                        </span>
+                    </li>
+                    <li class="aside_item">
+                        <h4 class="item__name">
+                            Keywords
+                        </h4>
+                        <span>
+                            205
+                        </span>
+                    </li>
+                    <li class="aside_item">
+                        <h4 class="item__name">
+                            Companies
+                        </h4>
+                        <span>
+                            131
+                        </span>
+                    </li>
+                    <li class="aside_item">
+                        <h4 class="item__name">
+                            Collections
+                        </h4>
+                        <span>
+                            35
+                        </span>
+                    </li>
+                    <li class="aside_item">
+                        <h4 class="item__name">
+                            Networks
+                        </h4>
+                        <span>
+                            2
+                        </span>
+                    </li>
+                </ul>
+            </div>
+
+        </aside>
+        <main class="main">
+            <ul class="main__list">
+
+            </ul>
+        </main>
+    </div>
+
+    <script src="./js/search.js"></script>
+</body>
+</html>
